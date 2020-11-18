@@ -6,11 +6,11 @@ typedef HeaderForEachCallback = void Function(String name, List<String> values);
 
 class Headers {
   // Header field name
-  static const acceptHeader = 'accept';
-  static const contentEncodingHeader = 'content-encoding';
-  static const contentLengthHeader = 'content-length';
-  static const contentTypeHeader = 'content-type';
-  static const wwwAuthenticateHeader = 'www-authenticate';
+  static const acceptHeader = 'Accept';
+  static const contentEncodingHeader = 'Content-Encoding';
+  static const contentLengthHeader = 'Content-Length';
+  static const contentTypeHeader = 'Content-Type';
+  static const wwwAuthenticateHeader = 'WWW-Authenticate';
 
   // Header field value
   static const jsonContentType = 'application/json; charset=utf-8';
